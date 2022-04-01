@@ -26,7 +26,8 @@ for (let i = 0; i < btnArray.length; i++){
         document.getElementById(btnArray[i]).style.backgroundColor = "#326CF6";
         document.getElementById(btnArray[i]).style.color = "white";
 
-        selection = document.getElementById(btnArray[i]).innerHTML;
+        selection = document.getElementById(btnArray[i]).innerHTML.toLowerCase();
+        
         // console.log(selection);
         
     }
